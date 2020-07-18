@@ -1,6 +1,7 @@
-FROM deepakaiden/apachetomcat
-
-MAINTAINER salagars
+## FROM deepakaiden/apachetomcat
+FROM senthil123/dockertomcat
+LABEL name="prabu"
+LABEL description="Use dockertomcat image as base image for custom tomcat deployment"
 USER root
 RUN mkdir /usr/local/tomcat/webapps/build/
 RUN mkdir /usr/local/tomcat/webapps/build/static/
