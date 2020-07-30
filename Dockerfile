@@ -1,6 +1,6 @@
 ## FROM deepakaiden/apachetomcat
 FROM spandanak/dockertomcat
-LABEL Author="spandana"
+LABEL Author="spandanak"
 LABEL description="Use dockertomcat image as base image for custom tomcat deployment"
 USER root
 RUN mkdir /usr/local/tomcat/webapps/build/
