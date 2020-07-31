@@ -1,5 +1,4 @@
-## FROM deepakaiden/apachetomcat
-FROM spandanak/dockertomcat
+FROM dockertomcat
 LABEL Author="spandanak"
 LABEL description="Use dockertomcat image as base image for custom tomcat deployment"
 USER root
