@@ -10,7 +10,6 @@ pipeline {
             agent any
             steps {
                 git 'https://github.com/KarriSpandana/DockerParking.git'
-
             }
         }
         stage('Build') {
@@ -40,7 +39,6 @@ pipeline {
                        dockerImage.push() 
                    }
                }
-
             }
         }
         stage('Remove Unused Docker Image') { 
